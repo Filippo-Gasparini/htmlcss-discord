@@ -72,13 +72,14 @@ img {
 
 .conteiner-sm {
     position: relative;
+    flex-direction: column;
+
 }
+    
 
 
-
-
-
-.image-text {
+    
+    .image-text {      
 position:relative;
   top: 50%;
   left: 50%;
@@ -88,6 +89,10 @@ position:relative;
 }
 
 
+
+.image-text {
+    background-
+}
 
 /* debug /*
 .row-1 {
