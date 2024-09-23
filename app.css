@@ -43,6 +43,7 @@ img {
 
 .conteiner-color {
     color: rgba(0, 0, 0, 0.968);
+    image: url(./img/jumbo.png)
     background-color: rgba(0, 136, 255, 0.615);
     display: fle;
     align-items: center;
