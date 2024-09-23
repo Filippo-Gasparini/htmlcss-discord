@@ -33,23 +33,34 @@ img {
 
 /*LAYOUT-1*/
 
-.header-conteiner {
-    height: ;
 
+
+.conteiner {
+    display: flex;
+    flex-direction:
 }
-
-
 
 
 .conteiner-color {
-    color: rgba(200, 255, 0, 0.632);
+    color: rgba(0, 0, 0, 0.968);
     background-color: rgba(0, 136, 255, 0.615);
-    display: flex;
+    display: fle;
     align-items: center;
-    flex-direction: column;
-
+    flex-direction: row;
+    height: 40px;
+    justify-content: center;
+   border: 2px solid black;
 
 }
+
+
+.logo, .flex {
+    text-align: center;
+    flex-direction: row;
+    border: 3px solid black;
+}
+
+
 
 
 .row {
@@ -62,7 +73,7 @@ img {
     height: 100%;
     width: 75%;
     margin: 0 auto;
-
+    text-align: center;
     .item {
         margin: inherit;
     }
